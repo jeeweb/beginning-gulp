@@ -1,0 +1,19 @@
+{
+  "name": "beginning-gulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building a development environment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeeweb/beginning-gulp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
