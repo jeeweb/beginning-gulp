@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -31,10 +31,14 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-bro": "^2.0.0",
     "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-webserver": "^0.9.1",
     "node-sass": "^7.0.1",
     "uglifyify": "^5.0.2"
+  },
+  "resolutions": {
+    "gift": "^0.10.2"
   }
 }
